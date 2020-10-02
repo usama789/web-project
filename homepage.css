@@ -2,6 +2,20 @@
 .hori-selector li{
     display: inline-block;
     
+    
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-item a{
+    color: white;
+    font-family: 'roboto';
+    font: bold;
+}
+.nav-item a:hover{
+        text-decoration: underline;
+
 }
 .carousel-inner img{
     max-height: 500px;
@@ -15,7 +29,7 @@ html,body{
     display: inline-block;
     margin-right: 100px;
     margin-left: 10px; 
-    color: blueviolet;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #nav-content{
@@ -25,7 +39,7 @@ html,body{
 }
 
 .footer{
-    background: #303036;
+    background:#002366  ;
     color: #d3d3d3;
     height: 400px;
     position: relative;
@@ -42,14 +56,15 @@ html,body{
     margin-left: 5px;
 }
 .footer .footer-content h1,
-.footer .footer-content h2{
-    color:yellow;
-    font-family: 'Roboto';
+.footer .footer-content h3{
+    color: white;
+    font-family: 'poppins';
 }
 
+
 .footer .footer-bottom{
-    background: #343a40;
-    color: #686868;
+    background: #002366 ;
+    color: white;
     height: 50px;
     text-align: center;
     position: absolute;
@@ -70,16 +85,27 @@ html,body{
 }
 
 .container{
-    background-color: lightblue;
+    background-color: #002366;
     max-width: 1300px;
     max-height: 30px;
 }
 .phone-icon h7{
-    text-decoration: mediumseagreen;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    color: white;
 }
-
+.fa {
+    color: white;
+}
+.quick-links-ul a{
+    color: white;
+    font-family: 'poppins';
+}
+.footer-bottom text{
+    color: white;
+    font-family: 'poppins';
+}
 
 div .contact{
     
@@ -107,6 +133,12 @@ div .contact{
 .footer-section.contact button{
         border-color: yellow;
         color: white;
+}
+.phone-icon a{
+    color: white;
+    font-size: 12px;
+    font-family: 'risque';
+    font: bold;
 }
 #logo-search{
 
@@ -137,14 +169,15 @@ div .contact{
     justify-content: center;
     margin-bottom: 0px;
     margin-left: 0px;
+   
 
 }
 .catagories-2 .flex-container{
     display: flex;
     justify-content: center;
-   
+   border-radius: 5px red;
     position: relative;
-    top: 0em;
+   
    
    
     
@@ -260,7 +293,7 @@ a{
 .foot-img{
     margin-left: 25px;
     position: relative;
-    margin-left: 25%;
+    margin-left: 30%;
     right: 12%;
 }
 .footer-div{
@@ -270,12 +303,12 @@ a{
 }
 .size-img{
     max-width: 100%;
-    height: 400px;
+    height: 380px;
     padding-right: 5px;
 }
 .locator-img{
     max-width: 100%;
-    height: 400px;
+    height: 380px;
     padding-left: 20px;
 }
 .btn-size{
@@ -300,7 +333,7 @@ a{
 .store-locator{
     position: absolute;
     top: 325%;
-    left: 75%;
+    left: 72%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     
@@ -315,4 +348,16 @@ a{
 }
 .store-locator:hover{
     color: white;
+}
+.item-a img{
+    height: 430px;
+}
+.item-b img{
+    height: 430px;
+}
+.item-c img{
+    height: 430px;
+}
+.item-d img{
+    height: 430px;
 }
