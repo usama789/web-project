@@ -8,8 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./homepage.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./homepage.css">
     <!-------- light-slider.css-->
     <link rel="stylesheet" href="/lightslider.css">
     <!---   jquery  -->
@@ -23,14 +26,14 @@
 <div class="navbar container">
 
   <div class="social-div">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
+<a href=""><i class="fab fa-facebook-f social-div"></i></a>
+    <a href="#"><i class="fab fa-instagram social-div"></i></a>
+    <a href="#"><i class="fab fa-twitter social-div"></i></a>
   
       
       </div> 
         <div class="phone-icon">
-      <span><i class="fa fa-phone" ></i> &nbsp; <h7>123-456-789 |</h7></span>
+      <span><i class="fa fa-phone social-div" ></i> &nbsp; <h7>123-456-789 |</h7></span>
       <a href="">SIGN IN |</a>
       <a href="#">REGISTER</a>
         </div>
@@ -39,17 +42,19 @@
 </div>
 <!--//contact nav-->
 <!--logo and search nav-->
-    <div class="navbar" id="logo-search">
-      <img src="/images/r.PNG" alt="" height="40px" class="logo">
+    <div class="navbar icon-cart" id="logo-search">
+       <img src="/images/r.PNG" alt="" height="40px" class="logo"> 
+
       <nav class="navbar ml-auto">
         
           
         <input type='text' placeholder='Search...' id='search-text-input' />
       </nav>
-        <img src="/images/loupe.png" alt="search" width="20px" id="magnify">
-        <svg width="1.25em" height="1.25em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-        </svg>
+
+        <!-- <img src="/images/loupe.png" alt="search" width="20px" id="magnify"> -->
+         <a href="#"> <i class="fas fa-search fa-md icon-cart"></i></a>
+         <a href="#"> <i class="fas fa-shopping-cart icon-cart"></i></a>
+       
     </div>
 <!--//logo and search nav-->
       <!-- NAV BAR-->
@@ -62,19 +67,19 @@
             <ul class="navbar-nav ml-auto">
                 <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Products</a>
+                    <a class="nav-link" href="javascript:void(0);"><i ></i>Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>About us</a>
+                  <a class="nav-link" href="javascript:void(0);"><i ></i>About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Contact</a>
+                <a class="nav-link" href="javascript:void(0);"><i ></i>Contact</a>
             </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Login</a>
+                    <a class="nav-link" href="javascript:void(0);"><i ></i>Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Signup</a>
+                    <a class="nav-link" href="javascript:void(0);"><i ></i>Signup</a>
                 </li>
                 
             </ul>
@@ -330,11 +335,13 @@
               </div>
               <br>
               
-              <div class="socials">
-                   <a href="#" class="fa fa-facebook" class="fb"></a>
-                  <a href="#" class="fa fa-twitter" class="tt"></a>
-                  <a href="#" class="fa fa-instagram" class="insta"></a>
-              </div>
+              <div class="footer-social">
+                <a href=""><i class="fab fa-facebook-f footer-social"></i></a>
+                    <a href="#"><i class="fab fa-instagram footer-social"></i></a>
+                    <a href="#"><i class="fab fa-twitter footer-social"></i></a>
+                  
+                      
+                      </div>
             </div>
             <div class="footer-section links">
               <br>
@@ -383,7 +390,9 @@
      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     
   </body>
